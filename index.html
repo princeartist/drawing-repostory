@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Art Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">Prince Art Studio</a>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#translate">Translate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary" href="#contact">Order Now</a>
+    </div>
+  </header>
+
+  <section id="hero" class="hero-section" style="background-image: url('IMG-20260526-WA0066.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="eyebrow">Hand-Drawn Portrait Studio</span>
+      <h1>Prince Art Studio</h1>
+      <p>Transforming Memories into Timeless Hand-Drawn Art.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Order Your Portrait Today</a>
+        <a class="btn btn-secondary" href="#portfolio">View Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section about-section">
+      <div class="container section-grid">
+        <div class="section-copy fade-up">
+          <span class="section-label">About Us</span>
+          <h2>Elegant portraits crafted with passion and detail.</h2>
+          <p>At Prince Art Studio, every custom hand-drawn portrait begins with your cherished photo. Our artist blends skill, patience, and artistic insight to create pieces that celebrate family, love, and treasured memories.</p>
+          <p>Whether you want a timeless pencil portrait, a colorful artistic rendering, or a custom family drawing, we bring each request to life with refined strokes and thoughtful composition.</p>
+        </div>
+        <div class="about-image fade-up delay">
+          <img src="IMG-20260526-WA0071.jpg" alt="Sample artwork" />
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <span class="section-label">Portfolio</span>
+          <h2>Featured artwork & custom portrait samples</h2>
+        </div>
+        <div class="gallery-filters fade-up delay">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="portrait">Portraits</button>
+          <button class="filter-btn" data-filter="family">Family Drawings</button>
+          <button class="filter-btn" data-filter="custom">Custom Artwork</button>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-item portrait fade-up">
+            <img src="IMG-20260526-WA0073.jpg" alt="Portrait sample" />
+            <div class="gallery-overlay">
+              <h3>Portrait Study</h3>
+              <p>Hand-drawn portrait with fine detail.</p>
+            </div>
+          </article>
+          <article class="gallery-item family fade-up delay">
+            <img src="IMG_20240912_143626_220.jpg" alt="Family drawing sample" />
+            <div class="gallery-overlay">
+              <h3>Family Memories</h3>
+              <p>Warm, realistic family artwork.</p>
+            </div>
+          </article>
+          <article class="gallery-item custom fade-up delay-more">
+            <img src="IMG_20240912_143637_413.jpg" alt="Custom artwork sample" />
+            <div class="gallery-overlay">
+              <h3>Custom Artwork</h3>
+              <p>Personalized illustration created from photos.</p>
+            </div>
+          </article>
+          <article class="gallery-item portrait fade-up">
+            <img src="IMG-20260526-WA0066.jpg" alt="Portrait artwork" />
+            <div class="gallery-overlay">
+              <h3>Signature Portrait</h3>
+              <p>Elegant monochrome artwork for home display.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing-section">
+      <div class="container section-head fade-up">
+        <span class="section-label">Pricing</span>
+        <h2>Transparent rates for timeless art.</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card fade-up">
+          <h3>A4 Pencil Portrait</h3>
+          <span class="price">10,000</span>
+          <p>Classic size for framed portraits and gifts.</p>
+        </div>
+        <div class="pricing-card fade-up delay">
+          <h3>A3 Pencil Portrait</h3>
+          <span class="price">15,000</span>
+          <p>More detail, richer presence, elegant display.</p>
+        </div>
+        <div class="pricing-card fade-up delay-more">
+          <h3>Family Portrait</h3>
+          <span class="price">Starting from 20,000</span>
+          <p>Perfect for capturing multiple loved ones.</p>
+        </div>
+        <div class="pricing-card fade-up delay-more2">
+          <h3>Colored Portrait</h3>
+          <span class="price">Starting from 20,000</span>
+          <p>Vibrant custom color work for a modern finish.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits-section">
+      <div class="container section-head fade-up">
+        <span class="section-label">Benefits</span>
+        <h2>Why choose Prince Art Studio?</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card fade-up">
+          <h3>Personalized Gift</h3>
+          <p>A beautifully unique present made just for them.</p>
+        </div>
+        <div class="benefit-card fade-up delay">
+          <h3>Lasting Memories</h3>
+          <p>Artwork that preserves emotion and family stories.</p>
+        </div>
+        <div class="benefit-card fade-up delay-more">
+          <h3>High-Quality Handmade</h3>
+          <p>Each piece is drawn by hand with attention to detail.</p>
+        </div>
+        <div class="benefit-card fade-up delay-more2">
+          <h3>Perfect Decoration</h3>
+          <p>Elegant art for home, office, and special spaces.</p>
+        </div>
+        <div class="benefit-card fade-up delay-long">
+          <h3>Custom-Built</h3>
+          <p>Designed to match your vision and personal style.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <div class="container section-head fade-up">
+        <span class="section-label">Testimonials</span>
+        <h2>What happy clients say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card fade-up">
+          <p>"The portrait captured the spirit of our family beautifully. It is now the center of our living room and everyone loves it."</p>
+          <footer>
+            <strong>Anna M.</strong>
+            <span>Family Portrait</span>
+          </footer>
+        </article>
+        <article class="testimonial-card fade-up delay">
+          <p>"Fast communication, elegant work and amazing attention to detail. A perfect gift for our anniversary."</p>
+          <footer>
+            <strong>David L.</strong>
+            <span>Custom Portrait</span>
+          </footer>
+        </article>
+        <article class="testimonial-card fade-up delay-more">
+          <p>"Prince Art Studio made the process simple and the result is more beautiful than we imagined. Highly recommended."</p>
+          <footer>
+            <strong>Sarah K.</strong>
+            <span>Colored Portrait</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid fade-up">
+        <div>
+          <span class="section-label">Contact</span>
+          <h2>Ready to create your custom portrait?</h2>
+          <p>Reach out today to discuss your vision and receive a personalized quote.</p>
+          <div class="contact-details">
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+255755224461">+255 755 224 461</a>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/255748066956" target="_blank" rel="noreferrer">+255 748 066 956</a>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:thomaserick286@gmail.com">thomaserick286@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-inner">
+            <h3>Start your order</h3>
+            <p>Send your photo and share your ideas. We’ll reply with a custom plan and delivery estimate.</p>
+            <a class="btn btn-primary" href="mailto:thomaserick286@gmail.com">Email Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Prince Art Studio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/255748066956" target="_blank" rel="noreferrer" class="whatsapp-button" title="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
